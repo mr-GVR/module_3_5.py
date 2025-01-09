@@ -21,7 +21,7 @@ def get_multiplied_digits(number):
 
 # Пример 40203
 result = get_multiplied_digits(40203)
-print(result)  
+print(result)
 # Пример 402030
 result2 = get_multiplied_digits(402030)
-print(result2)  
+print(result2)
