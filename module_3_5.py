@@ -16,7 +16,7 @@ def get_multiplied_digits(number):
     if first == 0:
         return get_multiplied_digits(int(str_number[1:]))
 
-    # Рекурсивно вычисляем произведение цифр оставшейся части числа
+    # Рекурсивно вычисляем произведение цифр 
     return first * get_multiplied_digits(int(str_number[1:]))
 
 # Пример 40203
